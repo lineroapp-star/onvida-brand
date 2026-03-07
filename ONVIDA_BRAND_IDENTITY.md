@@ -9,7 +9,8 @@
 
 | Asset | Preview | Raw URL |
 |---|---|---|
-| Full Logo | ![Onvida Logo](https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/ONVIDA-LOGO.png) | `https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/ONVIDA-LOGO.png` |
+| Full Logo (dark text) | ![Onvida Logo](https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/ONVIDA-LOGO.png) | `https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/ONVIDA-LOGO.png` |
+| Full Logo (white text) | ![Onvida Logo White Text](https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/onvida-logo-white-text.png) | `https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/onvida-logo-white-text.png` |
 | Icon / Favicon | ![Icon](https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/ICON-FAVCON.png) | `https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/ICON-FAVCON.png` |
 | White Leaf | ![White Leaf](https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/WHITE-LEAF.png) | `https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/WHITE-LEAF.png` |
 | Black Leaf | ![Black Leaf](https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/BLACK-LEAF.png) | `https://raw.githubusercontent.com/lineroapp-star/onvida-brand/main/assets/brand/BLACK-LEAF.png` |
@@ -73,12 +74,18 @@ Warm · Trustworthy · Accessible · Modern · Human
 
 ### Logo Files
 
-| File | Description | Use |
+| File | Description | Use When |
 |---|---|---|
-| `ONVIDA-LOGO.png` | Full logo — icon + wordmark, dark bg | Primary: presentations, website header, email hero |
+| `ONVIDA-LOGO.png` | Full logo — colored leaves + **dark teal wordmark** | ✅ Light backgrounds only: white `#FFFFFF`, cream `#FAF9F6`, mint `#E8F4F5` |
+| `onvida-logo-white-text.png` | Full logo — colored leaves + **white wordmark** | ✅ Dark/teal backgrounds: `#0D5C63`, `#0A3D42`, `#051E20`, any dark gradient or overlay |
 | `ICON-FAVCON.png` | Icon only, color (1080×1080px square) | Favicon, app icon, social avatar, watermark |
 | `WHITE-LEAF.png` | Icon only, white silhouette | Dark backgrounds, overlays, reversed usage |
 | `BLACK-LEAF.png` | Icon only, black silhouette | Single-color print, stamps, legal documents |
+
+> **⚠️ Background Rule:** Always match the logo version to the background brightness.  
+> Dark or teal background → use `onvida-logo-white-text.png`  
+> Light background → use `ONVIDA-LOGO.png`  
+> When in doubt: if you can't read dark teal text on the background, switch to the white-text version.
 
 ### Wordmark
 - Always lowercase: **`onvida`**
@@ -105,6 +112,7 @@ Warm · Trustworthy · Accessible · Modern · Human
 - ❌ Do not use on busy photographic backgrounds without a container or overlay
 - ❌ Do not uppercase or title-case the wordmark
 - ❌ Do not place the icon on a background color that matches the leaves
+- ❌ **Do not use `ONVIDA-LOGO.png` (dark teal wordmark) on teal, dark, or dark-gradient backgrounds** — the text becomes invisible. Use `onvida-logo-white-text.png` instead.
 
 ---
 
