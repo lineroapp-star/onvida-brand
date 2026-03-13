@@ -27,7 +27,7 @@ Official brand assets and identity guidelines for **Onvida — Solução Naciona
 
 | | |
 |---|---|
-| **Primary color** | `#0D5C63` |
+| **Primary color** | `#034E52` |
 | **Accent** | `#2EA89A` |
 | **Gold** | `#C8A96E` |
 | **Logo font** | El Messiri |
