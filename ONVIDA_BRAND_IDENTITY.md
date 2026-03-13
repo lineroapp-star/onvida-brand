@@ -34,7 +34,7 @@ BRAND CONTEXT — ONVIDA
 Company: Onvida — Solução Nacional de Saúde
 Tagline: "saúde que cabe na sua vida"
 Category: Corporate health & benefits platform, Brazil
-Primary color: #0D5C63 (dark teal) · Accent: #2EA89A · Gold: #C8A96E
+Primary color: #034E52 (dark teal) · Accent: #2EA89A · Gold: #C8A96E
 Logo font: El Messiri (humanist serif, Arabic-influenced roots)
 Website fonts: Lora (headlines/display, serif) + Source Sans 3 (body/UI)
 Logo: Two-leaf V icon in lime-to-teal gradient + lowercase "onvida" in El Messiri
@@ -77,7 +77,7 @@ Warm · Trustworthy · Accessible · Modern · Human
 | File | Description | Use When |
 |---|---|---|
 | `ONVIDA-LOGO.png` | Full logo — colored leaves + **dark teal wordmark** | ✅ Light backgrounds only: white `#FFFFFF`, cream `#FAF9F6`, mint `#E8F4F5` |
-| `onvida-logo-white-text.png` | Full logo — colored leaves + **white wordmark** | ✅ Dark/teal backgrounds: `#0D5C63`, `#0A3D42`, `#051E20`, any dark gradient or overlay |
+| `onvida-logo-white-text.png` | Full logo — colored leaves + **white wordmark** | ✅ Dark/teal backgrounds: `#034E52`, `#0A3D42`, `#051E20`, any dark gradient or overlay |
 | `ICON-FAVCON.png` | Icon only, color (1080×1080px square) | Favicon, app icon, social avatar, watermark |
 | `WHITE-LEAF.png` | Icon only, white silhouette | Dark backgrounds, overlays, reversed usage |
 | `BLACK-LEAF.png` | Icon only, black silhouette | Single-color print, stamps, legal documents |
@@ -121,7 +121,7 @@ Warm · Trustworthy · Accessible · Modern · Human
 ### Primary Brand Colors
 
 ```
---ov-teal:         #0D5C63   /* Primary dark teal — buttons, headers, featured cards */
+--ov-teal:         #034E52   /* Primary dark teal — buttons, headers, featured cards */
 --ov-teal-light:   #12747D   /* Secondary teal — hover states, active elements */
 --ov-accent:       #2EA89A   /* Accent teal-green — icons, checkmarks, section labels */
 --ov-gold:         #C8A96E   /* Gold — Total plan, premium indicators, italic emphasis */
@@ -156,10 +156,10 @@ Warm · Trustworthy · Accessible · Modern · Human
 
 ```css
 /* Hero / section backgrounds */
-background: linear-gradient(135deg, #0D5C63 0%, #0A3D42 60%, #051E20 100%);
+background: linear-gradient(135deg, #034E52 0%, #0A3D42 60%, #051E20 100%);
 
 /* Featured card (Total plan) */
-background: linear-gradient(160deg, #0D5C63 0%, #083C41 100%);
+background: linear-gradient(160deg, #034E52 0%, #083C41 100%);
 
 /* Hero radial overlay */
 background:
@@ -281,7 +281,7 @@ Not covered: Ozempic, Saxenda, Wegovy, Mounjaro, Rybelsus, vitaminas, suplemento
 ### Buttons
 ```css
 /* Primary */
-background: #0D5C63;  color: white;
+background: #034E52;  color: white;
 border-radius: 10px;  padding: 15px 32px;
 font: 600 14px 'Source Sans 3';
 box-shadow: 0 4px 14px rgba(13,92,99,0.25);
@@ -291,7 +291,7 @@ transition: all 0.25s;
 background: #12747D;  transform: translateY(-2px);
 
 /* Reversed (on dark/featured card) */
-background: white;  color: #0D5C63;
+background: white;  color: #034E52;
 ```
 
 ### Cards
@@ -301,7 +301,7 @@ background: #FFFFFF;  border-radius: 16px;  padding: 44px 36px;
 border-right: 1px solid rgba(0,0,0,0.06);
 
 /* Featured (Total plan) */
-background: linear-gradient(160deg, #0D5C63 0%, #083C41 100%);
+background: linear-gradient(160deg, #034E52 0%, #083C41 100%);
 color: white;
 
 /* Pricing block inside card */
@@ -315,14 +315,14 @@ background: white;  border-radius: 60px;  padding: 6px;
 box-shadow: 0 8px 32px rgba(13,92,99,0.14);
 
 /* Active tab */
-background: #0D5C63;  color: white;  border-radius: 50px;
+background: #034E52;  color: white;  border-radius: 50px;
 padding: 10px 22px;  font: 600 13px 'Source Sans 3';
 ```
 
 ### Tags & Chips
 ```css
 /* Standard */
-background: rgba(13,92,99,0.08);  color: #0D5C63;
+background: rgba(13,92,99,0.08);  color: #034E52;
 border-radius: 20px;  padding: 2px 8px;
 font: 600 9-11px 'Source Sans 3';
 
@@ -412,7 +412,7 @@ padding: 72px 24px;
 ```css
 :root {
   /* Colors */
-  --ov-teal:          #0D5C63;
+  --ov-teal:          #034E52;
   --ov-teal-light:    #12747D;
   --ov-accent:        #2EA89A;
   --ov-gold:          #C8A96E;
@@ -446,7 +446,7 @@ module.exports = {
     extend: {
       colors: {
         ov: {
-          teal:         '#0D5C63',
+          teal:         '#034E52',
           'teal-light': '#12747D',
           accent:       '#2EA89A',
           gold:         '#C8A96E',
